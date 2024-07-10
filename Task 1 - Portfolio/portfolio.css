@@ -1,0 +1,196 @@
+.header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.about {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.bio {
+    background-color: rgba(0, 0, 128, 0.301);
+    padding: 25px 30px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 2px solid black;
+}
+
+#sp1 {
+    font-size: 30px;
+}
+
+#sp2 {
+    font-size: 80px;
+}
+
+#sp3 {
+    font-size: 50px;
+}
+
+#me {
+    text-align: center;
+    font-size: 25px;
+}
+
+.skihead {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#shd {
+    font-size: 70px;
+}
+
+
+.items {
+    display: grid;
+    grid-template-columns: 1.2fr 3fr;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.it {
+    background-color: rgba(0, 0, 128, 0.522);
+    padding: 20px;
+    align-content: center;
+    font-size: 28px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.des {
+    background-color: rgba(0, 0, 128, 0.301);
+    padding: 20px;
+    align-content: center;
+    font-size: 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.prohead {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.phd {
+    font-size: 70px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.box {
+    width: 380px;
+}
+
+.title {
+    background-color: rgba(0, 0, 128, 0.522);
+    height: 60px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.content {
+    background-color: rgba(0, 0, 128, 0.301);
+    font-size: 25px;
+    padding: 17px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.download {
+    background-color: navy;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+}
+
+.con {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+#conme {
+    /* background-color: blue; */
+    font-size: 70px;
+    /* margin: 10px 0px; */
+}
+
+.ct {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    padding: 10px 0px;
+    margin: 0px 10px;
+}
+
+.conname {
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.con1 {
+    background-color: rgba(0, 0, 128, 0.522);
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.con2 {
+    background-color: rgba(0, 0, 128, 0.301);
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
